@@ -379,7 +379,7 @@ class WysiwygEditor {
         this.pageId = pageEditor.getAttribute('page-id');
         this.textDirection = pageEditor.getAttribute('text-direction');
 
-        this.plugins = "image table textcolor paste link autolink fullscreen imagetools code customhr autosave lists codeeditor media";
+        this.plugins = "image table textcolor paste link autolink fullscreen imagetools code customhr autosave lists codeeditor media example";
         this.loadPlugins();
 
         this.tinyMceConfig = this.getTinyMceConfig();
