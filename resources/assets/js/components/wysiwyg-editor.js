@@ -421,7 +421,7 @@ class WysiwygEditor {
             document_base_url: window.baseUrl('/'),
             end_container_on_empty_block: true,
             statusbar: false,
-            menubar: false,
+            menubar: true,
             paste_data_images: false,
             extended_valid_elements: 'pre[*],svg[*],div[drawio-diagram]',
             automatic_uploads: false,
